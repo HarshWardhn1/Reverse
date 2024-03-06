@@ -1,0 +1,335 @@
+@font-face {
+    font-family: AmericanGaramound;
+    src: url(/Stylesheet/Fonts/AmericanGaramound/American\ Garamond\ Bold\ Italic.otf);
+  }
+  @font-face {
+    font-family: CatholicSchoolGirlBB;
+    src: url(/Stylesheet/Fonts/catholic_school_gir/CATHSGBR.TTF);
+  }
+  @font-face {
+    font-family: BrettleySignature;
+    src: url(/Stylesheet/Fonts/Brettley-Signature-DEMO-BF63d7cff930ddd.ttf);
+  }
+  @font-face {
+    font-family: AdobeCalsonPro-Regular;
+    src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Regular.otf);
+  }
+  @font-face {
+    font-family: AdobeCalsonPro-SemiBold;
+    src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Semibold.otf);
+  }
+  @font-face {
+    font-family: AdobeCalsonPro-Bold;
+    src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Bold.otf);
+  }
+  @font-face {
+    font-family: Dutch766;
+    src: url(/Stylesheet/Fonts/dutch766-bt-bold-font/dutch-766-bold-bt.ttf);
+  }
+  @font-face {
+    font-family: Kontora-Extravold;
+    src: url(Fonts/kontora-extrabold.otf);
+  }
+  @font-face {
+    font-family: KingCaslon;
+    src: url(/Stylesheet/Fonts/KingsCaslonDisplay_Trial_It.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+li{
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  background-position: right;
+}
+
+.top li{
+   display: flex;
+   justify-content:end;
+   align-items: start;
+}
+
+nav{
+   display: flex;
+   justify-content: flex-end;
+   width: 100vw;
+
+}
+
+.top li ul:hover{
+   color: rgb(245, 243, 233);
+   transition: all 0.2s ease-in-out;
+   background-color: black;
+}
+
+ul{
+   padding: 0rem 1rem;
+   height: fit-content;
+   width: fit-content;
+   margin: 20px;
+   border: solid;
+   border-radius: 30px;
+   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+   font-size: 15px; 
+   font-style: italic; 
+   font-variant: normal; 
+   font-weight: 700; 
+   line-height: 23px;
+}
+
+ /* Heading Styling Starts */
+.heading {
+    width: 70vw;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading .main-heading h1 {
+    font-family: AmericanGaramound;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.heading .main-heading p {
+    font-family: CatholicSchoolGirlBB;
+    font-size: 1rem;
+}
+
+.img-container2 {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-three {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.section-three .section-three-content {
+    /* transform: translateY(-4rem); */
+    padding-left: 40px;
+    /* padding-top: 17px; */
+}
+.section-three .sec3-headings {
+    font-family: BrettleySignature;
+}
+.section-three .section-three-content h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    z-index: 1;
+    padding-left: 25vw;
+    transform: translateY(-20px);
+}
+.section-three .section-three-content h2 {
+    font-weight: 300;
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+}
+.section-three .section-three-content p {
+    font-family: AdobeCalsonPro-Regular;
+    font-size: 1.2rem;
+}
+
+ /* Heading Styling Ends */
+
+ /* Mid Content Starts */
+.section-four {
+    width: 60vw;
+    padding-left: 10vw;
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four .sec4-content {
+    width: fit-content;
+    font-size: 1 rem;
+    font-family: AdobeCalsonPro-SemiBold;
+    line-height: 96%;
+}
+
+.section-four .sec4-img {
+    margin: 0 2rem;
+}
+/* Mid Content Ends */
+
+/* End Content Part Starts*/
+.section-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.section-five p{
+    width: fit-content;
+    padding: 0 12vw;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: AdobeCalsonPro-Regular;
+}
+
+.img{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+
+}  
+
+.section-five h1{
+    margin-left: 20vw;
+    font-family: CatholicSchoolGirlBB;
+    font-size: 48px;
+}
+/* End Content Part Ends*/
+
+footer {
+    z-index: 1;
+    background: #000;
+    height: fit-content;
+    width: 100vw;
+    color: white;
+    padding-top: 1rem;
+  }
+  
+  footer .register-now{
+    display: flex;
+    width: 60vw;
+    padding: 0 20vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .register-now h1{
+    font-size: 1.5rem;
+    font-family: AdobeCalsonPro-Bold;
+  }
+  footer .register-now p{
+    font-family: KingCaslon;
+    font-size: 1.5rem;
+  }
+  
+  footer .form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 1rem;
+    width: 60vw;
+    height: fit-content;
+    background: white;
+    color: black;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0 130px 130px 0;
+    font-size: 0.8rem;
+    font-family: AdobeCalsonPro-Regular;
+  }
+  footer .contacts{
+    font-size: 0.7rem;
+    font-family: AdobeCalsonPro-SemiBold;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20vw;
+    margin-top: 3rem;
+    width: fit-content;
+  }
+  
+  footer .contacts p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-family: AdobeCalsonPro-SemiBold;
+  }
+  
+  footer .made-with {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: AdobeCalsonPro-Regular;
+  }
+  
+
+  @media screen and (max-width:320) {
+    footer .form{
+     font-size: 0.4rem;
+    }
+  }
+
+  /* The nav bar media query */
+
+.top1 li{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: solid;
+  border-radius: 200px;
+}
+
+.navi{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25vw;
+}
+
+.top1 li ul:hover{
+  color: rgb(245, 243, 233);
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+  
+}
+
+#ulst{
+ padding: 0 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  margin: 4px;
+  border: solid;
+  border-radius: 30px;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+  font-size: 0.9rem; 
+  font-style: italic; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 2rem;
+}
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 630px) {
+ .hide {
+   display: flex;
+   z-index: 1;
+ }
+
+}
+
+@media screen and (max-width: 630px) {
+  .nav{
+   display: none;
+  
+  }
+ }

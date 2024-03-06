@@ -1,0 +1,435 @@
+@font-face {
+  font-family: AmericanGaramound;
+  src: url(/Stylesheet/Fonts/AmericanGaramound/American\ Garamond\ Bold\ Italic.otf);
+}
+@font-face {
+  font-family: CatholicSchoolGirlBB;
+  src: url(/Stylesheet/Fonts/catholic_school_gir/CATHSGBR.TTF);
+}
+@font-face {
+  font-family: BrettleySignature;
+  src: url(/Stylesheet/Fonts/Brettley-Signature-DEMO-BF63d7cff930ddd.ttf);
+}
+@font-face {
+  font-family: AdobeCalsonPro-Regular;
+  src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Regular.otf);
+}
+@font-face {
+  font-family: AdobeCalsonPro-SemiBold;
+  src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Semibold.otf);
+}
+@font-face {
+  font-family: AdobeCalsonPro-Bold;
+  src: url(/Stylesheet/Fonts/ACalsonPro/ACaslonPro-Bold.otf);
+}
+@font-face {
+  font-family: Dutch766;
+  src: url(/Stylesheet/Fonts/dutch766-bt-bold-font/dutch-766-bold-bt.ttf);
+}
+@font-face {
+  font-family: Kontora-Extravold;
+  src: url(Fonts/kontora-extrabold.otf);
+}
+@font-face {
+  font-family: KingCaslon;
+  src: url(/Stylesheet/Fonts/KingsCaslonDisplay_Trial_It.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+
+li{
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  background-position: right;
+}
+
+.top li{
+   display: flex;
+   justify-content:end;
+   align-items: start;
+}
+
+nav{
+   display: flex;
+   justify-content: flex-end;
+   width: 100vw;
+
+}
+
+.top li ul:hover{
+   color: rgb(245, 243, 233);
+   transition: all 0.2s ease-in-out;
+   background-color: black;
+}
+
+ul{
+   padding: 0rem 1rem;
+   height: fit-content;
+   width: fit-content;
+   margin: 20px;
+   border: solid;
+   border-radius: 30px;
+   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+   font-size: 15px; 
+   font-style: italic; 
+   font-variant: normal; 
+   font-weight: 700; 
+   line-height: 23px;
+}
+
+.heading {
+  width: 80vw;
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* position: relative; */
+}
+
+.heading .main-heading h1 {
+  font-family: AmericanGaramound;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.heading .main-heading p {
+  font-family: CatholicSchoolGirlBB;
+  font-size: 1.5rem;
+}
+
+.our-reach {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.our-reach h1 {
+  padding-left: 2rem;
+  width: fit-content;
+  font-size: 2rem;
+  font-family: AdobeCalsonPro-Bold;
+}
+
+.our-reach p {
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  font-family: AdobeCalsonPro-Regular;
+  line-height: 115%;
+}
+
+
+.section-two .sub-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.section-two .sub-one img {
+  border: 2px solid black;
+  padding: 8px 12px;
+  border-radius: 138px;
+}
+
+.section-two .sub-one p {
+  font-size: 1rem;
+  width: max-content;
+  padding: 8px 124px;
+  margin-left: 20px;
+  font-family: Dutch766;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 138px;
+  
+}
+
+.section-two .sub-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+.section-two .sub-two p:first-child {
+  font-size: 1rem;
+  width: max-content;
+  padding: 8px 120px;
+  margin-left: 20px;
+  font-family: Dutch766;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 138px;
+}
+.section-two .sub-two p:nth-child(2) {
+  font-size: 1rem;
+  width: max-content;
+  padding: 8px 120px;
+  margin-left: 20px;
+  font-family: Dutch766;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 138px;
+}
+.section-two .sub-three {
+    display: flex;
+    width: 65vw;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.section-two .sub-three p {
+  font-size: 1rem;
+  width: max-content;
+  padding: 8px 124px;
+  margin-left: 20px;
+  font-family: Dutch766;
+  font-weight: 800;
+  border: 2px solid black;
+  border-radius: 138px;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 65vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+.section-three h1 {
+  font-size: 2rem;
+  font-family: AdobeCalsonPro-Bold;
+  margin-bottom: 1rem;
+}
+.section-three li{
+  font-size: 1rem;
+  line-height: 115%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+  margin-top: 20px;
+}
+
+.section-five {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65vw;
+  margin: auto;
+  position: relative;
+}
+
+
+.section-five .sec-5-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55vw;
+  margin-top: 2rem;
+  margin-left: 30px;
+}
+
+.section-five .sec-5-content h1{
+  font-size: 1.1rem;
+  font-family: AdobeCalsonPro-Bold;
+}
+.section-five .sec-5-content h2{
+  font-size: 1.1rem;
+  font-family: AdobeCalsonPro-SemiBold;
+}
+.section-five .sec-5-content p{
+  font-size: 1.0rem;
+  font-family: AdobeCalsonPro-Regular;
+}
+
+footer {
+  z-index: 1;
+  background: #000;
+  height: fit-content;
+  width: 100vw;
+  color: white;
+  padding-top: 1rem;
+}
+
+footer .register-now{
+  display: flex;
+  width: 60vw;
+  padding: 0 20vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .register-now h1{
+  font-size: 1.5rem;
+  font-family: AdobeCalsonPro-Bold;
+}
+footer .register-now p{
+  font-family: KingCaslon;
+  font-size: 1.5rem;
+}
+
+footer .form{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 1rem;
+  width: 60vw;
+  height: fit-content;
+  background: white;
+  color: black;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 0 130px 130px 0;
+  font-size: 0.8rem;
+  font-family: AdobeCalsonPro-Regular;
+}
+footer .contacts{
+  font-size: 0.7rem;
+  font-family: AdobeCalsonPro-SemiBold;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20vw;
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+footer .contacts p{
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-family: AdobeCalsonPro-SemiBold;
+}
+
+footer .made-with {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60vw;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family: AdobeCalsonPro-Regular;
+}
+
+
+@media screen and (max-width:320px) {
+  footer .form{
+   font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .section-two .sub-one{
+   flex-direction: column;
+   align-items: center;
+   padding: 8px 120px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .section-two .sub-two{
+   flex-direction: column;
+   align-items: center;
+
+  }
+}
+
+@media screen and (max-width:500px) {
+  .section-two .sub-one p{
+    padding: 8px 75px;
+   }
+}
+
+@media screen and (max-width:500px) {
+  .section-two .sub-two p:first-child {
+    padding: 8px 65px;
+   }
+}
+
+@media screen and (max-width:500px) {
+  .section-two .sub-two p:nth-child(2){
+    padding: 8px 75px;
+   }
+}
+
+@media screen and (max-width:500px) {
+  .section-two .sub-three p { 
+    padding: 8px 75px;
+   }
+}
+
+/* The nav bar media query */
+
+.top1 li{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border: solid;
+  border-radius: 200px;
+}
+
+.navi{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25vw;
+}
+
+.top1 li ul:hover{
+  color: rgb(245, 243, 233);
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+  
+}
+
+#ulst{
+ padding: 0 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  margin: 4px;
+  border: solid;
+  border-radius: 30px;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+  font-size: 0.9rem; 
+  font-style: italic; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 2rem;
+}
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 630px) {
+ .hide {
+   display: flex;
+   z-index: 1;
+ }
+
+}
+
+@media screen and (max-width: 630px) {
+  .nav{
+   display: none;
+  }
+ }
